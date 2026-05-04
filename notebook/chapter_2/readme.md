@@ -17,18 +17,18 @@ name := "Alex" // shorthand (inside functions only)
 
 ### Rules
 
-* `:=` only inside functions
-* `var` works everywhere
-* Prefer `:=` inside functions for brevity
+- `:=` only inside functions
+- `var` works everywhere
+- Prefer `:=` inside functions for brevity
 
 ---
 
 ## 2. Basic Types
 
-* `int`
-* `float64`
-* `string`
-* `bool`
+- `int`
+- `float64`
+- `string`
+- `bool`
 
 ### Zero Values (default)
 
@@ -53,7 +53,7 @@ var f float64 = float64(i)
 
 ## 4. Conditions (`if`)
 
-* Condition must be **boolean**
+- Condition must be **boolean**
 
 ```go
 if x != 0 {
@@ -84,8 +84,8 @@ default:
 
 ### Key Rules
 
-* No automatic fallthrough
-* Use `fallthrough` explicitly if needed
+- No automatic fallthrough
+- Use `fallthrough` explicitly if needed
 
 ---
 
@@ -99,16 +99,16 @@ for i := 0; i < 5; i++ {
 
 ### Keywords
 
-* `continue` → skip rest of current iteration
-* `break` → exit loop
+- `continue` → skip rest of current iteration
+- `break` → exit loop
 
 ---
 
 ## 7. Logic Thinking
 
-* Always be explicit
-* Break problems into steps
-* Avoid guessing
+- Always be explicit
+- Break problems into steps
+- Avoid guessing
 
 ---
 
@@ -141,39 +141,48 @@ if !validUnits[input] {
 
 ## 10. Control Flow Design Principles
 
-* Validate early → return early
-* Handle edge cases first (invalid input, same values)
-* Keep logic readable (prefer `switch` over long `if-else` chains)
+- Validate early → return early
+- Handle edge cases first (invalid input, same values)
+- Keep logic readable (prefer `switch` over long `if-else` chains)
 
 ---
 
 ## 11. Common Mistakes
 
-* Using wrong formulas (always sanity check)
-* Mixing units or logic steps
-* Overusing global variables
-* Writing messy conditional chains
+- Using wrong formulas (always sanity check)
+- Mixing units or logic steps
+- Overusing global variables
+- Writing messy conditional chains
 
 ---
 
 ## 12. Mini Project
-- Temperature Converter
 
-Features implemented:
+- **Temperature Converter**
 
-* Input temperature
-* Input source & target units
-* Validation using map
-* Same-unit check
-* Conversion logic using functions
+  > Features implemented:
+  >
+  > - Input temperature
+  > - Input source & target units
+  > - Validation using map
+  > - Same-unit check
+  > - Conversion logic using functions
+
+- **Number Guess**
+  > Features implemented:
+  >
+  > - Let user guess number
+  > - Guide them with too high or to Low
+  > - Validate input and range
+  > - Loop till guessed right
 
 ---
 
 ## Final Takeaway
 
-* Be explicit
-* Think in steps
-* Structure logic cleanly
-* Validate before processing
+- Be explicit
+- Think in steps
+- Structure logic cleanly
+- Validate before processing
 
 You should now be able to write small programs with clear control flow and correct
