@@ -1,11 +1,11 @@
-package module1
+package exercise
 
 import (
 	"fmt"
 	"strings"
 )
 
-func conv() {
+func ConvertTemprature() {
 	var temperature float64
 	var from_unit string
 	var to_unit string
