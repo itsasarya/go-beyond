@@ -1,9 +1,5 @@
 # Variables, Types, and Control Flow in Go
 
-*A practical study note for backend-focused Go developers*
-
----
-
 # Table of Contents
 
 1. Introduction

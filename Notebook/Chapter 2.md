@@ -1,9 +1,5 @@
 # Functions and Scope
 
-*A Backend Developer's Guide to Writing Reusable, Safe, and Predictable Go Code*
-
----
-
 # Introduction
 
 This is where Go starts feeling like real backend engineering.
