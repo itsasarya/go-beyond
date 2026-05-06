@@ -1,4 +1,4 @@
-package exercise
+package main
 
 import (
 	"fmt"

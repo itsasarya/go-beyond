@@ -1,8 +1,11 @@
 package main
 
-// import exercise "go-beyond/exercises/chapter_2"
+import (
+	"fmt"
+)
 
 func main() {
-	// exercise.ConvertTemprature()
-	// exercise.Play_game()
+	input := "hello"               // change input as per function called below
+	result := ReverseString(input) //change function to call
+	fmt.Println(result)
 }
