@@ -1,5 +1,5 @@
 # Functions and Scope
-
+  
 # Introduction
 
 This is where Go starts feeling like real backend engineering.

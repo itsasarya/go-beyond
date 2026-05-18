@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	input := "hello"               // change input as per function called below
-	result := ReverseString(input) //change function to call
+	input := "go is fun and go is fast" // change input as per function called below
+	result := WordFrequency(input)      //change function to call
 	fmt.Println(result)
 }
