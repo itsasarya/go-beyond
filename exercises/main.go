@@ -5,7 +5,11 @@ import (
 )
 
 func main() {
-	input := "go is fun and go is fast" // change input as per function called below
-	result := WordFrequency(input)      //change function to call
-	fmt.Println(result)
+	name := "testing" // change input as per function called below
+	phone := "0987654321"
+	result := AddContact(name, phone) //change function to call
+	find:= FindContact(name)
+	up:= UpdateContact(name, "9879")
+	list := ListContact()
+	fmt.Println(result, find, up, list)
 }
