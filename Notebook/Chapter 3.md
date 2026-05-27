@@ -1,4 +1,4 @@
-# Chapter 3 — Collections in Go
+# Collections in Go
 
 # Introduction
 
